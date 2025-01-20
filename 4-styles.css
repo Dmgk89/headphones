@@ -1,0 +1,51 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #1a1a1a;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .col-md-6 {
+    flex: 0 0 50%;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .col-md-6 {
+      flex: 0 0 100%;
+      margin-bottom: 20px;
+    }
+  }
